@@ -5,4 +5,5 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("EQ1 Information")
+    return HttpResponse("EQ1 INFORMATION")
+    

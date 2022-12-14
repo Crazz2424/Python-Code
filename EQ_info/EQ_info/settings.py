@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'EQ1_info.apps.EQ1_infoConfig'
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
