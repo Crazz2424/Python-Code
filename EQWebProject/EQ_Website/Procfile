@@ -1,0 +1,1 @@
+web: gunicorn EQ_Website.wsgi --log-file -
