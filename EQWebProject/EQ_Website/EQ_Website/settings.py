@@ -54,7 +54,7 @@ ROOT_URLCONF = 'EQ_Website.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR, 'templates', 'static'],
+        'DIRS': [BASE_DIR, 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -124,4 +124,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_DIRS = [
     BASE_DIR / "static"
+]
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    '/var/www/static/',
 ]
